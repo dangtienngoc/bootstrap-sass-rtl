@@ -1,0 +1,29 @@
+{
+  "name": "Bootstrap RTL SASS",
+  "description": "Support Bootstrap RTL",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "bootstrap",
+    "bootstrap",
+    "rtl",
+    "sass",
+    "rtl"
+  ],
+  "authors": [
+    "NGOC DANG"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}
