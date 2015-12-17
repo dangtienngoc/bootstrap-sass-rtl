@@ -4,12 +4,8 @@
 // --------------------------------------------------
 
 .pull-right {
-  &.flip {
-    float: left !important;
-  }
+   float: left !important;
 }
 .pull-left {
-  &.flip {
-    float: right !important;
-  }
+   float: right !important;
 }

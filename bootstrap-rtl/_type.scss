@@ -3,8 +3,8 @@
 // --------------------------------------------------
 
 // Flipped Alignment
-.flip.text-left           { text-align: right; }
-.flip.text-right          { text-align: left; }
+.text-left           { text-align: right; }
+.text-right          { text-align: left; }
 
 // List options
 
@@ -12,6 +12,10 @@
 @mixin list-unstyled {
   padding-right: 0;
   padding-left: initial;
+}
+
+.list-unstyled {
+  @include list-unstyled;
 }
 
 // Inline turns list items into inline-block
